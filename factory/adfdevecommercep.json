@@ -1,0 +1,15 @@
+{
+	"name": "adfdevecommercep",
+	"properties": {
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "591e3af2-cfc9-4235-b39b-3b47f1315438",
+		"tenantId": "370a27cf-ba77-4274-8119-7a4d00997351"
+	}
+}
