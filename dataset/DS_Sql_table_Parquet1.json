@@ -1,0 +1,37 @@
+{
+	"name": "DS_Sql_table_Parquet1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLS_SQL_Parquet1",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"TableName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileSystem": "output"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": [
+			{
+				"name": "id",
+				"type": "UTF8"
+			},
+			{
+				"name": "name",
+				"type": "UTF8"
+			},
+			{
+				"name": "salary",
+				"type": "UTF8"
+			}
+		]
+	}
+}
