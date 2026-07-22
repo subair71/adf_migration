@@ -126,7 +126,7 @@
 							]
 						},
 						{
-							"name": "Execute Pipeline1",
+							"name": "EXEC_UPDATE_WATERMARK",
 							"type": "ExecutePipeline",
 							"dependsOn": [
 								{
