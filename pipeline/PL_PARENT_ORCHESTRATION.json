@@ -47,7 +47,7 @@
 					},
 					"activities": [
 						{
-							"name": "Execute Pipeline1",
+							"name": "EXEC_SQL_INCREMENTAL",
 							"type": "ExecutePipeline",
 							"dependsOn": [],
 							"policy": {
