@@ -2,7 +2,7 @@
 	"name": "DS_LKUP_MAX_VALUE",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "SqlServer4",
+			"referenceName": "LS_Parent_SQLServer_DW",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {
