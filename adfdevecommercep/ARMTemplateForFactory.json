@@ -414,7 +414,10 @@
 						"typeProperties": {
 							"source": {
 								"type": "SqlServerSource",
-								"sqlReaderQuery": "SELECT TableSchema, TableName, WatermarkColumn, LastLoadValue FROM dbo.ADF_Watermark_Table;",
+								"sqlReaderQuery": {
+									"value": "SELECT TableSchema, TableName, WatermarkColumn, LastLoadValue FROM dbo.ADF_Watermark_Table;",
+									"type": "Expression"
+								},
 								"queryTimeout": "02:00:00",
 								"partitionOption": "None"
 							},
@@ -443,6 +446,7 @@
 								"value": "@activity('LKUP_SQLTABLE_WATERMARK_DW').output.value",
 								"type": "Expression"
 							},
+							"isSequential": false,
 							"activities": [
 								{
 									"name": "EXEC_SQL_INCREMENTAL",
@@ -472,7 +476,7 @@
 												"type": "Expression"
 											},
 											"LastLoadValue": {
-												"value": "item().LastLoadValue",
+												"value": "@item().LastLoadValue",
 												"type": "Expression"
 											}
 										}
