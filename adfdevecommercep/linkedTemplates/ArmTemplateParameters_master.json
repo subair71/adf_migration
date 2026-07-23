@@ -1,0 +1,102 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevecommercep"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"LS_ADLS_SQL_Parquet1_accountKey": {
+			"value": ""
+		},
+		"LS_ONPremise_SQLSERVER_DW_password": {
+			"value": ""
+		},
+		"LS_Parent_SQLServer_DW_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer3_password": {
+			"value": ""
+		},
+		"SqlServer4_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adlsecommerce.dfs.core.windows.net"
+		},
+		"LS_ADLS_SQL_Parquet1_properties_typeProperties_url": {
+			"value": "https://adlsecommerce.dfs.core.windows.net"
+		},
+		"LS_ONPremise_SQLSERVER_DW_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_ONPremise_SQLSERVER_DW_properties_typeProperties_database": {
+			"value": "RetailDW_dev"
+		},
+		"LS_ONPremise_SQLSERVER_DW_properties_typeProperties_userName": {
+			"value": "subair7"
+		},
+		"LS_Parent_SQLServer_DW_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_Parent_SQLServer_DW_properties_typeProperties_database": {
+			"value": "RetailDW_dev"
+		},
+		"LS_Parent_SQLServer_DW_properties_typeProperties_userName": {
+			"value": "subair7"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "RetailDW_dev"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "acdd"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "RetailDW_dev"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "DESKTOP-LVUPN0A\\Admin"
+		},
+		"SqlServer3_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer3_properties_typeProperties_database": {
+			"value": "RetailDW_dev"
+		},
+		"SqlServer3_properties_typeProperties_userName": {
+			"value": "subair7"
+		},
+		"SqlServer4_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer4_properties_typeProperties_database": {
+			"value": "RetailDW_dev"
+		},
+		"SqlServer4_properties_typeProperties_userName": {
+			"value": "subair7"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
